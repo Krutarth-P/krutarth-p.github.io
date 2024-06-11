@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <title>Krutarth Patel</title>
@@ -21,83 +22,88 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-L0SJZ7MDRV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L0SJZ7MDRV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-L0SJZ7MDRV');
-</script>
+    gtag('config', 'G-L0SJZ7MDRV');
+  </script>
   <style>
-    
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    line-height: 1.8;
-    background-color: #f5f5f5;
-  }
-  p {
-    font-size: 16px;
-  }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      line-height: 1.8;
+      background-color: rgb(37, 36, 36);
+    }
 
-  .container-fluid {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  .navbar {
-    padding-top: 5px;
-    padding-bottom: 0px;
-    border: 0px;
-    border-radius: 0px;
-    margin-bottom: 0px;
-    font-size: 20px;
-    letter-spacing: 2px;   
-    min-height: 35px !important; 
-  }
-  
-  .navbar-inverse {
-  background-color:rgb(0, 217, 255);
- }
-  .navbar-nav  li a:hover {
-    color: white !important;
-  }
+    p {
+      font-size: 16px;
+    }
 
-  .navbar-nav  li a{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+    .container-fluid {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
 
-  .navbar-inverse .navbar-nav>li>a {
-    color: black;
-}
+    .navbar {
+      padding-top: 5px;
+      padding-bottom: 0px;
+      border: 0px;
+      border-radius: 0px;
+      margin-bottom: 0px;
+      font-size: 20px;
+      letter-spacing: 2px;
+      min-height: 35px !important;
+    }
 
-.navbar-inverse .navbar-brand {
-    color: red;
-    font-weight: bold;
-    font-size: 20px;
-    padding-top: 5px;
-    padding-bottom: 0px;
-    padding-right: 15px;
-    height: 35px;
-}
+    .navbar-inverse {
+      background-color: black;
+    }
 
-.active a{
-    color: red !important;
-    border-radius: 7px;
-    background-color: navy !important;
-}
+    .navbar-nav li a:hover {
+      color: white !important;
+    }
 
-@media (max-width: 1176px) {
-    .navbar-header {
+    .navbar-nav li a {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+      color: lightslategray;
+    }
+
+    .navbar-inverse .navbar-brand {
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      padding-top: 5px;
+      padding-bottom: 0px;
+      padding-right: 15px;
+      height: 35px;
+    }
+
+    .active a {
+      color: lightgrey !important;
+      border-radius: 7px;
+      background-color: grey !important;
+    }
+
+    @media (max-width: 1176px) {
+      .navbar-header {
         float: none;
-    }
-    .navbar-left,.navbar-right {
+      }
+
+      .navbar-left,
+      .navbar-right {
         float: none !important;
-    }
-    .navbar-toggle {
+      }
+
+      .navbar-toggle {
         display: block;
         padding-top: 5px;
         padding-bottom: 5px;
@@ -105,325 +111,349 @@
         padding-right: 6px;
         margin-top: 4px;
         margin-bottom: 4px;
-    }
-    .navbar-collapse {
+      }
+
+      .navbar-collapse {
         border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      }
+
+      .navbar-fixed-top {
         top: 0;
         border-width: 0 0 1px;
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
+      }
+
+      .navbar-collapse.collapse {
+        display: none !important;
+      }
+
+      .navbar-nav {
+        float: none !important;
         margin-top: 7.5px;
-    }
-    .navbar-nav>li {
+      }
+
+      .navbar-nav>li {
         float: none;
-    }
-    .navbar-nav>li>a {
+      }
+
+      .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
+      }
+
+      .collapse.in {
+        display: block !important;
+      }
     }
-    .collapse.in{
-        display:block !important;
+
+    p.heading {
+      margin-top: 70px;
+      margin-bottom: 5px;
+      margin-left: 0px;
+      margin-right: 0px;
+      font-size: 35px;
+      padding: 0px;
     }
-}
-p.heading {
-    margin-top: 70px;
-    margin-bottom: 5px;
-    margin-left: 0px;
-    margin-right: 0px;
-    font-size: 35px;
-    padding: 0px;
-}
 
-h1.heading {
-    margin-top: 0px;
-    margin-bottom: 5px;
-    margin-left: 0px;
-    margin-right: 0px;
-    font-size: 60px;
-    font-weight: bold;
-    font-variant: small-caps;
-}
+    h1.heading {
+      margin-top: 0px;
+      margin-bottom: 5px;
+      margin-left: 0px;
+      margin-right: 0px;
+      font-size: 60px;
+      font-weight: bold;
+      font-variant: small-caps;
+    }
 
-.section-title{
-  font-size: 35px;
-  margin-top: 60px;
-  margin-bottom: 40px;
-  font-weight: bold;
-  text-shadow: 2px 2px 15px black;
-}
+    .section-title {
+      font-size: 35px;
+      margin-top: 60px;
+      margin-bottom: 40px;
+      font-weight: bold;
+      text-shadow: 2px 2px 15px black;
+    }
 
-.bg-1 { 
-  background-color:#474e5d; /* Dark Blue */ 
-  color: #ffffff;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-bottom: 2%;
-  box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 black;
-  border-radius: 4px;
-}
-.bg-2 { 
-  background-color: #1abc9c; /* Green */
-  color: #ffffff;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-bottom: 2%;
-  box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 black;
-  border-radius: 4px;
-}
-.bg-3 { 
-  background-color: #e03203 ; /* White */
-  color: white;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-bottom: 2%;
-  box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 black;
-  border-radius: 4px;
-}
-.bg-4 { 
-  background-color:  #16b2b8; /* Black Gray #F65100*/
-  color: white;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-bottom: 2%;
-  box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 black;
-  border-radius: 4px;
-}
+    .bg-1 {
+      background-color: black;
+      /* Dark Blue */
+      color: #ffffff;
+      margin-left: 3%;
+      margin-right: 3%;
+      margin-bottom: 2%;
+      box-shadow: 0 4px 8px 0 #2f2f2f, 0 6px 20px 0 white;
+      border-radius: 4px;
+    }
 
-.bg-5 { 
-  background-color: #a9a9a9 ; /* Black Gray #F65100*/
-  color: #fff;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-bottom: 2%;
-  box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 black;
-  border-radius: 4px;
-}
+    .bg-2 {
+      background-color: #1abc9c;
+      /* Green */
+      color: #ffffff;
+      margin-left: 3%;
+      margin-right: 3%;
+      margin-bottom: 2%;
+      box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 black;
+      border-radius: 4px;
+    }
 
-.bg-6{
-  background-color: #2f2f2f; /* Black Gray */
-  color: #fff;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-bottom: 2%;
-  box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 black;
-  border-radius: 4px;
-  
-}
+    .bg-3 {
+      background-color: black;
+      /* White */
+      color: white;
+      margin-left: 3%;
+      margin-right: 3%;
+      margin-bottom: 2%;
+      box-shadow: 0 4px 8px 0 #2f2f2f, 0 6px 20px 0 white;
+      border-radius: 4px;
+    }
+
+    .bg-4 {
+      background-color: black;
+      /* Black Gray #F65100*/
+      color: white;
+      margin-left: 3%;
+      margin-right: 3%;
+      margin-bottom: 2%;
+      box-shadow: 0 4px 8px 0 #2f2f2f, 0 6px 20px 0 white;
+      border-radius: 4px;
+    }
+
+    .bg-5 {
+      background-color: black;
+      /* Black Gray #F65100*/
+      color: #fff;
+      margin-left: 3%;
+      margin-right: 3%;
+      margin-bottom: 2%;
+      box-shadow: 0 4px 8px 0 #2f2f2f, 0 6px 20px 0 white;
+      border-radius: 4px;
+    }
+
+    .bg-6 {
+      background-color: black;
+      /* Black Gray */
+      color: #fff;
+      margin-left: 3%;
+      margin-right: 3%;
+      margin-bottom: 2%;
+      box-shadow: 0 4px 8px 0 #2f2f2f, 0 6px 20px 0 white;
+      border-radius: 4px;
+
+    }
 
 
-.social-buttons a{
-  display: inline-flex;
-  text-decoration: none;
-  font-size: 18px;
-  width: 70px;
-  height: 70px;
-  color: white;
-  text-align:center;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin: 8px;
-  margin-bottom: 30px;
-}
+    .social-buttons a {
+      display: inline-flex;
+      text-decoration: none;
+      font-size: 18px;
+      width: 70px;
+      height: 70px;
+      color: white;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin: 8px;
+      margin-bottom: 30px;
+    }
 
-.social-buttons a::before{
-  content: "";
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  background-color: black;
-  border-radius: 50%;
-  z-index: 0;
-  transition: 0.2s ease-in;
-}
+    .social-buttons a::before {
+      content: "";
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      background-color: black;
+      border-radius: 50%;
+      z-index: 0;
+      transition: 0.2s ease-in;
+    }
 
-.social-buttons a:hover::before{
-  transform: scale(0);
-}
+    .social-buttons a:hover::before {
+      transform: scale(0);
+    }
 
-.social-buttons a i{
-  transition: 0.2s ease-in;
-  transform: scale(1);
-}
+    .social-buttons a i {
+      transition: 0.2s ease-in;
+      transform: scale(1);
+    }
 
-.social-buttons a:hover i{
-  transform: scale(1.3);
-  z-index: 1;
-}
+    .social-buttons a:hover i {
+      transform: scale(1.3);
+      z-index: 1;
 
-/*
+    }
+
+    /*
 #headshot{
   margin: auto;
   margin-bottom: 30px;
 }
 */
 
-#intro{
-  margin-bottom: 30px;
-  font-size: 18px;
-  text-align: left;
-}
+    #intro {
+      margin-bottom: 30px;
+      font-size: 18px;
+      text-align: left;
+    }
 
-dl{
-  margin-left: 30px;
-  font-size: 18px;
-} 
+    dl {
+      margin-left: 30px;
+      font-size: 18px;
+    }
 
-dd{
-  margin-left: 40px;
-  font-size: 17px;
-}
+    dd {
+      margin-left: 40px;
+      font-size: 17px;
+    }
 
-.awards{
-  font-size: 17px;
-}
+    .awards {
+      font-size: 17px;
+    }
 
-.title{
-  margin-left: 5%;
-  font-weight: bold;
-  font-size: 18px;
-  margin-bottom: 0px;
-}
+    .title {
+      margin-left: 5%;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 0px;
+    }
 
-.logo{
-  width: 50px;
-}
+    .logo {
+      width: 50px;
+    }
 
-.date{
-  margin-left: 10%;
-  font-size: 13px;
-  margin-bottom: 0px;
-}
+    .date {
+      margin-left: 10%;
+      font-size: 13px;
+      margin-bottom: 0px;
+    }
 
-.description{
-  font-size: 17px;
-  margin-left: 7%;
-}
+    .description {
+      font-size: 17px;
+      margin-left: 7%;
+    }
 
-@media only screen and (min-width: 1024px) {
-  .description{
-    max-width: 65%;
-  }
+    @media only screen and (min-width: 1024px) {
+      .description {
+        max-width: 65%;
+      }
 
-  #intro{
-    max-width: 80%;
-    margin-left: 10%;
-  }
+      #intro {
+        max-width: 80%;
+        margin-left: 10%;
+      }
 
-}
+    }
 
-.project {
-  background-color: #e9e9e9;
-  color: #555555;
-  border-color: #fa7c92;
-  border-style: solid;
-  border-width: medium;
-  border-radius: 0px;
-  margin: auto;
-  margin-bottom: 30px;
-  padding-left: 0px;
-  padding-right: 0px;
-  transition: transform .2s;
-  box-shadow: 0 4px 10px 0 white, 0 10px 15px 0 black;
-}
+    .project {
+      background-color: black;
+      color: white;
+      border-color: white;
+      border-style: solid;
+      border-width: medium;
+      border-radius: 5px;
+      margin: auto;
+      margin-bottom: 30px;
+      padding-left: 0px;
+      padding-right: 0px;
+      transition: transform .2s;
+      box-shadow: 0 4px 4px 0 black, 0 10px 15px 0 white;
+    }
 
+    /*
 .project:hover{
-  -ms-transform: scale(1.05); /* IE 9 */
-  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  -ms-transform: scale(1.05); /* IE 9 
+  -webkit-transform: scale(1.05); /* Safari 3-8 
   transform: scale(1.05); 
-  box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 black;
-}
+  box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+} */
 
-.name{
-  font-size: 25px;
-  margin-bottom: 0px;
-  padding-left: 15px;
-  padding-right: 15px;
-  text-decoration: underline;
-}
+    .name {
+      font-size: 25px;
+      margin-bottom: 0px;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-decoration: underline;
+    }
 
-.links{
-  margin-bottom: 0px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+    .links {
+      margin-bottom: 0px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
 
-.tools{
-  margin-bottom: 0px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+    .tools {
+      margin-bottom: 0px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
 
-.detail{
-  font-size: 16px;
-}
+    .detail {
+      font-size: 16px;
+    }
 
 
-.responsive-iframe {
-  position: relative;
-  border: none;
-}
-
+    .responsive-iframe {
+      position: relative;
+      border: none;
+    }
   </style>
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<!-- Navbar -->
-<nav class="navbar navbar-inverse navbar-fixed-top ">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#home" >KRUTARTH PATEL</a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top ">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#home">KRUTARTH PATEL</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#home">HOME</a></li>
+          <!-- <li><a href="#about">ABOUT ME</a></li>-->
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#experience">EXPERIENCE</a></li>
+          <li><a href="#project">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT ME</a></li>
+          <li><a href="https://drive.google.com/file/d/18WXcnPG6Kpc08W0z9nHh5JbW9BMGyge3/view?usp=sharing"
+              target="_blank">RESUME</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#home">HOME</a></li>
-        <li><a href="#about">ABOUT ME</a></li>
-        <li><a href="#skills">SKILLS</a></li>
-        <li><a href="#experience">EXPERIENCE</a></li>
-        <li><a href="#project">PROJECTS</a></li>
-        <li><a href="#contact">CONTACT ME</a></li>
-        <li><a href="https://drive.google.com/file/d/18WXcnPG6Kpc08W0z9nHh5JbW9BMGyge3/view?usp=sharing"  target="_blank">RESUME</a></li>
-      </ul>
+  </nav>
+
+  <!-- Home -->
+  <div id="home" class="container-fluid bg-1">
+    <p class=" heading text-center">Hi! My name is </p>
+    <h1 class="heading text-center" style="color: lightseagreen"></b>Krutarth Patel</b>.</h1>
+    <p class="text-center" style="font-size: 25px;">Computer Engineering Graduate From The University of Toronto |
+      Athlete | Tech Enthusiast</p>
+
+    <div class="social-buttons text-center">
+      <a href="https://github.com/Krutarth-P" target="_blank"><i class="fab fa-github git"> <br>GitHub</i></a>
+      <a href="https://www.linkedin.com/in/krutarthp/" target="_blank"><i class="fab fa-linkedin-in linkedin">
+          <br>LinkedIn</i></a>
+      <a href="https://drive.google.com/file/d/18WXcnPG6Kpc08W0z9nHh5JbW9BMGyge3/view?usp=sharing" target="_blank"><i
+          class="fa fa-file resume"> <br>Resume</i></a>
+      <a href="mailto: krutarth2000@gmail.com" target="_blank"><i class="fa fa-envelope email"> <br>Email</i></a>
     </div>
   </div>
-</nav>
 
-<!-- Home -->
-<div id="home" class="container-fluid bg-1">
-  <p class=" heading text-center">Hi! My name is </p>
-  <h1 class="heading text-center" style="color: lime"></b>Krutarth Patel</b>.</h1>
-  <p class="text-center" style="font-size: 25px;">Computer Engineering graduate from the University of Toronto | Athlete | Tech Enthusiast</p>
-
-  <div class="social-buttons text-center">
-    <a href="https://github.com/Krutarth-P" target="_blank"><i class="fab fa-github git"> <br>GitHub</i></a> 
-    <a href="https://www.linkedin.com/in/krutarthp/" target="_blank"><i class="fab fa-linkedin-in linkedin"> <br>LinkedIn</i></a>
-    <a href="https://drive.google.com/file/d/18WXcnPG6Kpc08W0z9nHh5JbW9BMGyge3/view?usp=sharing" target="_blank"><i class="fa fa-file resume"> <br>Resume</i></a>
-    <a href="mailto: krutarth2000@gmail.com" target="_blank" ><i class="fa fa-envelope email"> <br>Email</i></a>
-  </div>
-</div>
-
-<!-- About -->
+  <!-- About -->
+  <!--
 <div id="about" class="container-fluid bg-2 text-center">
   <h2 class="section-title">ABOUT ME</h2>
-  <!--
+ 
   <div class="row">
     <div class="col-sm-6">
       <img id="headshot" src="resources/headshot2.jpg" class="img-circle img-responsive" alt="my picture" width="400px">
     </div>
-    <div class="col-sm-6">-->
-      <p id="intro">I am a computer engineering graduate from the University of 
+    <div class="col-sm-6">
+    <p id="intro">I am a computer engineering graduate from the University of 
         Toronto with a specialization in software engineering, hardware engineering, and computer networks. 
         I also have minors in Artificial Intelligence (AI) Engineering and in Engineering Business. I am currently seeking 
         full-time new grad roles.
@@ -433,251 +463,377 @@ dd{
         basketball, and volleyball), and playing video games.
 
       </p>
-    <!-- 
     </div>
-  </div>--> 
-</div>
-
-<!-- Skills -->
-<div id="skills" class="container-fluid bg-3 " >
-  <h2 class="section-title text-center">SKILLS & ACHIEVEMENTS</h2>
-  <div class="row">
-    <div class="col-sm-6">
-      <dl >
-        <dt>Languages:</dt>
-        <dd>
-          English •  French •  Hindi • Gujarati
-        </dd>
-        <dt>Programming Languages:</dt>
-        <dd>
-          C++ / C • Python • Java • JavaScript • SQL • NoSQL • ARM Assembly • HTML • CSS • Docker • Verilog
-        </dd>
-        <dt>Tools and Technologies:</dt>
-        <dd>
-          Git • Flask • Node.js • React • Ruby • Kubernetes • RESTful API • Pandas • PyTorch • NumPy • Bootstrap • MongoDB • JSON • Jupyter • MATLAB • Linux
-        </dd>
-        <dt>Courses:</dt>
-        <dd>
-          Data Structures & Algorithm • Object-Oriented Programming • Databases • Operating System • Artificial Intelligence • Machine Learning • Computer Security • Computer Networks • Software Engineering • Web Development
-        </dd>
-      </dl>
-    </div>
-    <div class="col-sm-6">
-      <ul class="awards"> <b>AWARDS & COMPETITIONS </b>
-        <li>Google Kick Start Coding Competition</li>
-        <li>Facebook Hacker Cup </li>
-        <li>Lighthouse Labs 21-day Coding Challenge</li>
-        <li>RU Hacks 2019 (Challenge Winner) </li>
-        <li>4x-Varsity Badminton Champion </li>
-        <li>Varsity Ultimate Frisbee Champion</li>
-      </ul>
-     </div>
   </div>
-</div>
+</div>-->
 
-<!-- Work Experience -->
-<div id="experience"class="container-fluid bg-4">
-  <h2 class="section-title text-center">Work Experience</h2>
-  <p class="title" ><img src="resources/ibm.png" alt="logo" class="logo"> Software Engineer Intern | IBM</p>
-  <p class="date">May 2021 - May 2022</p>
-  <ul class="description">
-    <li>Contributed towards a successful and fast operation of CI/CD pipeline on IBM Cloud team</li>
-    <li>Implemented programming techniques to optimize and increase the speed of the pipeline by ~50%</li> 
-    <li>Responsible for ensuring successful upkeep of the back-end services</li>
-    <li>Maintained security of servers by regularly updating and renewing server certificates and keys</li>
-  </ul>
-  <hr>
-
-  <p class="title" ><img src="resources/consumers-council.png" alt="logo" class="logo"> Systems Analyst Intern | Consumers Council of Canada</p>
-  <p class="date">June - August 2019</p>
-  <ul class="description">
-    <li>Designed and implemented the systems plan for the Council's online problem referral system</li>
-    <li>Utilized logic-based forms to receive reports of consumer experiences and direct them to government services that may assist them</li> 
-    <li>Improved accuracy of the analysis to 95+% (previously ~70%) by debugging code and fixing errors</li>
-    <li>Integrated computational logic to analyse the data</li>
-  </ul>
-  <hr>
-
-  <p class="title" ><img src="resources/tisc.png" alt="logo" class="logo"> Design Engineering Intern | Toronto Island Sailing Club</p>
-  <p class="date">January - April 2019</p>
-  <ul class="description">
-    <li>Worked with a team of 6 engineering students and an engineering manager to devise a solution from the given request for proposal (RFP) that also meets the spending budget of $50,000</li> 
-    <li>Designed an eco-friendly self-sufficient design for the new TISC clubhouse that implements old shipping trailers as the structure of the building and uses renewable sources of energy.</li>
-    <li>Utilized the RFP to derive a problem statement, Project Requirements (PR) and Conceptual Design Solutions (CDS) documents</li>
-  </ul>
-  <hr>
-  
-  <p class="title" ><img src="resources/tanvas.png" alt="logo" class="logo"> Design Engineering Intern | Tanvas Inc.</p>
-  <p class="date">September - December 2018</p>
-  <ul class="description">
-    <li>Worked with a team of 6 engineering students to devise a solution from the given request for proposal (RFP)</li> 
-    <li>Designed a time management mobile app for visually impaired individuals which incorporates the Tanvas haptic touch technology</li>
-    <li>Utilized the RFP to derive a problem statement, Project Requirements (PR) and Conceptual Design Solutions (CDS) documents</li>
-  </ul>
-  
-</div>
-
-<!-- projects -->
-<div id="project" class="container-fluid bg-5 ">    
-  <h2 class="section-title text-center">PROJECTS & HACKATHONS</h2>
-  <div class="row ">
-    
-    <div class="col-md-4"> 
-      <div class=" col-sm-12 col-md-12  project"> 
-        <img src="resources/pizza.png" class="img-responsive " style="width:100%" alt="Image">
-        <p class="text-center name">Good Pizza | RU Hacks 2019 (Challenge Winner)</p>
-        <p class="links">Link: <a href="https://github.com/Krutarth-P/RU-Hacks-2019">GitHub</a></p>
-        <p class="tools">Tools: Python, HTML, CSS, JavaScript, TensorFlow</p>
-        <ul class="detail">
-          <li>
-            Developed an AI model to visually assure quality of the pizza based on picture.
-          </li>
-          <li>
-            Concept can be used for other foods/products in many other industries. 
-          </li>
-          <li>
-            Utilized Google Vision AI to help identify photos.
-          </li>
+  <!-- Skills -->
+  <div id="skills" class="container-fluid bg-3 ">
+    <h2 class="section-title text-center">SKILLS & ACHIEVEMENTS</h2>
+    <div class="row">
+      <div class="col-sm-6">
+        <dl>
+          <dt>Certifications:</dt>
+          <dd>
+            Amazon Web Services (AWS) Certified Cloud Practitioner: EC2, S3, RDS, VPC, IAM, CloudFormation, CloudWatch,
+            Lambda...
+          </dd>
+          <dt>Programming Languages:</dt>
+          <dd>
+            Python • C++ / C • Java • JavaScript • SQL • NoSQL • HTML/CSS • ARM Assembly • Docker • Verilog
+          </dd>
+          <dt>Tools and Technologies:</dt>
+          <dd>
+            Git • AWS • Flask • Node.js • React • Ruby • Kubernetes • RESTful API • Pandas • PyTorch • NumPy • Bootstrap
+            • MongoDB • JSON • Jupyter • MATLAB • Linux
+          </dd>
+          <dt>Courses:</dt>
+          <dd>
+            Data Structures & Algorithm • Object-Oriented Programming • Databases • Operating System • Artificial
+            Intelligence • Machine Learning • Computer Security • Computer Networks • Software Engineering • Web
+            Development
+          </dd>
+          <dt>Languages:</dt>
+          <dd>
+            English • French • Hindi • Gujarati
+          </dd>
+        </dl>
+      </div>
+      <div class="col-sm-6">
+        <ul class="awards"> <b>AWARDS & COMPETITIONS </b>
+          <li>Google Kick Start Coding Competition</li>
+          <li>Facebook Hacker Cup </li>
+          <li>Lighthouse Labs 21-day Coding Challenge</li>
+          <li>RU Hacks 2019 (Challenge Winner) </li>
+          <li>4x-Varsity Badminton Champion </li>
+          <li>Varsity Ultimate Frisbee Champion</li>
         </ul>
       </div>
     </div>
-    
-    
-    <div class="col-md-4"> 
-      <div class=" col-sm-12 col-md-12  project"> 
-        <img src="resources/music.png" class="img-responsive " style="width:100%" alt="Image">
-        <p class="text-center name">Music Recommendation System</p>
-        <p class="tools">Tools: Python, Scikit-learn, Jupyter</p>
-        <ul class="detail">
-          <li>
-            Developed a music recommendation using Python Scikit-learn, and Jupyter notebook
-          </li>
-          <li>
-            Used training data to ensure accurate results 
-          </li>
-          <li>
-            Utilised Scikit-learn to make correct predictions
-          </li>
-        </ul>
-      </div>
-    </div>
-    
-    
-    <div class="col-md-4">
-      <div class=" col-sm-12 col-md-12  project">
-        <img src="resources/jpmorgan.jpg" class="img-responsive " style="width:100%" alt="Image">
-        <p class="text-center name">JPMorgan Chase Software Engineering Project </p>
-        <p class="tools">Tools: Python, JavaScript, React</p>
-        <ul class="detail">
-          <li>
-            Utilised Python to manage and compare stock prices 
-          </li>
-          <li>
-            Used JPMorgan Chase frameworks and tools to manage data
-          </li>
-          <li>
-            Used React to visualize data
-          </li>
-        </ul>
-      </div>
-    </div>
-    
-    
-    <div class="col-md-4"> 
-      <div class=" col-sm-12 col-md-12  project"> 
-        <img src="resources/map.png" class="img-responsive " style="width:100%" alt="Image">
-        <p class="text-center name">Geographic Mapping Software</p>
-        <p class="tools">Tools: C++, OpenStreetMap API</p>
-        <ul class="detail">
-          <li>
-            In a team on 3, created a mapping software similar to Google Maps using C++, EZGL graphics library, and OSM database
-          </li>
-          <li>
-            Used multiple data structures and algorithms to make it fast and efficient in managing and utilizing over 20 million data point for over 10 cities
-          </li>
-          <li>
-            Utilized Dijkstra and A* algorithm to solve pathfinding and travelling salesman problem 
-          </li>
-          <li>
-            Designed and implemented a graphical user interface to represent info 
-          </li>
-        </ul>
-      </div>
-    </div>
-    
-    
-    <div class="col-md-4">
-      <div class=" col-sm-12 col-md-12  project">
-        <img src='resources/othello.png' class="img-responsive " style="width:100%" alt="Image">
-        <p class="text-center name">Othello AI Game</p>
-        <p class="links">Link: <a href="https://github.com/Krutarth-P/C-coursework">GitHub</a> </p>
-        <p class="tools">Tools: C</p>
-        <ul class="detail">
-          <li>
-            Developed a successful 1 and 2-player Othello game. 
-          </li>
-          <li>
-            Implemented Minimax and Greedy algorithm that chooses the best move for any board size under 1 second for 1-player AI match. 
-          </li>
-        </ul>
-        </div>  
-    </div>
-    
-    
-    <div class="col-md-4"> 
-      <div class=" col-sm-12 col-md-12  project"> 
-        <img src="resources/dino.jpg" class="img-responsive " style="width:100%" alt="Image">
-        <p class="text-center name">Dino Runner</p>
-        <p class="tools">Tools: C, ARM Assembly, DE1-SoC FPGA</p>
-        <ul class="detail">
-          <li>
-            Developed a functional dino runner game using C and ARM assembly
-          </li>
-          <li>
-            Implement PS2 and board inputs to control the game
-          </li>
-          <li>
-            Utilised display buffers and memory to output graphics
-          </li>
-        </ul>
-      </div>
-    </div>
-    
-    <div class="col-md-4"> 
-      <div class=" col-sm-12 col-md-12  project"> 
-        <img src="resources/website.png" class="img-responsive " style="width:100%" alt="Image">
-        <p class="text-center name">Portfolio Website</p>
-        <p class="links">Link: <a href="https://github.com/Krutarth-P/krutarth-p.github.io">GitHub</a> </p>
-        <p class="tools">Tools: HTML, CSS, JavaScript, Bootstrap</p>
-        <ul class="detail">
-          Designed and developed a functional responsive personal website to showcase my skills, experience, and projects.
-        </ul>
-      </div>
-    </div>
-
-    
-    
-  </div>
-</div>
-
-<!-- Footer -->
-<footer id="contact" class="container-fluid bg-6 text-center">
-  <h2 class="section-title">Contact Me</h2>
-  <p>Feel free to message me on LinkedIn or email me at <a href="mailto: krutarth2000@gmail.com">krutarth2000@gmail.com</a>.</p>
-
-  <div class="social-buttons">
-    <a href="https://www.linkedin.com/in/krutarthp/" target="_blank"><i class="fab fa-linkedin-in linkedin"> <br>LinkedIn</i></a>
-    <a href="mailto: krutarth2000@gmail.com"><i class="fa fa-envelope email"> <br>Email</i></a>
   </div>
 
-  <p>Fill out the form below or at <a href="https://forms.gle/k4qnM3DjRLAmmEYx8" target="_blank">https://forms.gle/k4qnM3DjRLAmmEYx8</a></p>
- 
-  <iframe class="responsive-iframe" src="https://docs.google.com/forms/d/e/1FAIpQLScATeP_OgeqNkZyyyCwiEGFlYj4k7p5Xw-hPGxYZcncUvVBhw/viewform?embedded=true"
-   title="Contact form" width="90%" height="670px" frameborder="0" marginheight="0" marginwidth="0" >Loading form… </iframe>
+  <!-- Work Experience -->
+  <div id="experience" class="container-fluid bg-4">
+    <h2 class="section-title text-center">Work Experience</h2>
+    <p class="title"><img src="resources/ibm.png" alt="logo" class="logo"> Software Engineer Intern | IBM</p>
+    <p class="date">May 2021 - May 2022</p>
+    <ul class="description">
+      <li>Contributed towards a successful and fast operation of CI/CD pipeline on IBM Cloud team</li>
+      <li>Implemented programming techniques to optimize and increase the speed of the pipeline by ~50%</li>
+      <li>Responsible for ensuring successful upkeep of the back-end services</li>
+      <li>Maintained security of servers by regularly updating and renewing server certificates and keys</li>
+    </ul>
+    <hr>
 
-  <p>Website Made By Krutarth Patel</p> 
+    <p class="title"><img src="resources/consumers-council.png" alt="logo" class="logo"> Systems Analyst Intern |
+      Consumers Council of Canada</p>
+    <p class="date">June - August 2019</p>
+    <ul class="description">
+      <li>Designed and implemented the systems plan for the Council's online problem referral system</li>
+      <li>Utilized logic-based forms to receive reports of consumer experiences and direct them to government services
+        that may assist them</li>
+      <li>Improved accuracy of the analysis to 95+% (previously ~70%) by debugging code and fixing errors</li>
+      <li>Integrated computational logic to analyse the data</li>
+    </ul>
+    <hr>
 
-</footer>
+    <p class="title"><img src="resources/tisc.png" alt="logo" class="logo"> Design Engineering Intern | Toronto Island
+      Sailing Club</p>
+    <p class="date">January - April 2019</p>
+    <ul class="description">
+      <li>Worked with a team of 6 engineering students and an engineering manager to devise a solution from the given
+        request for proposal (RFP) that also meets the spending budget of $50,000</li>
+      <li>Designed an eco-friendly self-sufficient design for the new TISC clubhouse that implements old shipping
+        trailers as the structure of the building and uses renewable sources of energy.</li>
+      <li>Utilized the RFP to derive a problem statement, Project Requirements (PR) and Conceptual Design Solutions
+        (CDS) documents</li>
+    </ul>
+    <hr>
+
+    <p class="title"><img src="resources/tanvas.png" alt="logo" class="logo"> Design Engineering Intern | Tanvas Inc.
+    </p>
+    <p class="date">September - December 2018</p>
+    <ul class="description">
+      <li>Worked with a team of 6 engineering students to devise a solution from the given request for proposal (RFP)
+      </li>
+      <li>Designed a time management mobile app for visually impaired individuals which incorporates the Tanvas haptic
+        touch technology</li>
+      <li>Utilized the RFP to derive a problem statement, Project Requirements (PR) and Conceptual Design Solutions
+        (CDS) documents</li>
+    </ul>
+
+  </div>
+
+  <!-- projects -->
+  <div id="project" class="container-fluid bg-5 ">
+    <h2 class="section-title text-center">PROJECTS & HACKATHONS</h2>
+    <div class="row ">
+
+
+      <div class="col-md-4">
+        <div class=" col-sm-12 col-md-12  project">
+          <img src="resources/course.png" class="img-responsive " style="width:100%" alt="Image">
+          <p class="text-center name">Aevo Course Planner</p>
+          <p class="links">Link: <a
+              href="https://github.com/Krutarth-P/UofT-Education-Pathways-Aevo-Course-Planner">GitHub</a></p>
+          <p class="tools">Tools: Python, Flask, React, JavaScript, Node.js, pytest, HTML, CSS, Bootstrap, JSON, Git</p>
+          <ul class="detail">
+            <li>
+              Developed a course planner full-stack web application to support 6000+ courses offered throughout UofT
+              campuses
+            </li>
+            <li>
+              Utilized Flask for back-end, React for front-end, and JSON database to facilitate search, view, modify,
+              and schedule courses
+            </li>
+            <li>
+              Deployed unit testing and integration testing with pytest to ensure effective operation of different
+              modules and functionalities
+            </li>
+            <li>
+              Achieved quick automated deployments using a DevOps approach by integrating GitHub Actions to establish
+              CI/CD pipelines
+            </li>
+            <li>
+              Engaged in the software development lifecycle (SDLC) process (sprint planning, stand-ups, and
+              retrospectives) to ensure
+              smooth development, testing, deployment, and elevate team collaboration
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="clearfix visible-xs visible-sm"></div>
+
+      <div class="col-md-4">
+        <div class=" col-sm-12 col-md-12  project">
+          <img src="resources/capstone.png" class="img-responsive " style="width:100%" alt="Image">
+          <p class="text-center name">Ensemble Learning Credit Card Fraud Detection</p>
+          <p class="tools">Tools: Python, TensorFlow, Scikit-learn, Pandas, NumPy, Jupyter</p>
+          <ul class="detail">
+            <li>
+              Leveraged ensemble machine learning techniques to accomplish ~95.9% overall accuracy in credit card fraud
+              detection
+            </li>
+            <li>
+              Implemented AdaBoost with decision trees model to yield low false positive rate
+            </li>
+            <li>
+              Incorporated various tools to clean, process, and train data from an IBM dataset with 24 million
+              transaction data
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="clearfix visible-xs visible-sm"></div>
+      <div class="col-md-4">
+        <div class=" col-sm-12 col-md-12  project">
+          <img src="resources/map.png" class="img-responsive " style="width:100%" alt="Image">
+          <p class="text-center name">Geographic Mapping Software</p>
+          <p class="tools">Tools: C++, OpenStreetMap API</p>
+          <ul class="detail">
+            <li>
+              In a team on 3, created a mapping software similar to Google Maps using C++, EZGL graphics library, and
+              OSM database
+            </li>
+            <li>
+              Used multiple data structures and algorithms to make it fast and efficient in managing and utilizing over
+              20 million data point for over 10 cities
+            </li>
+            <li>
+              Utilized Dijkstra and A* algorithm to solve pathfinding and travelling salesman problem
+            </li>
+            <li>
+              Designed and implemented a graphical user interface to represent info
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+
+      <div class="clearfix visible-xs visible-sm"></div>
+      <div class="clearfix hidden-xs hidden-sm"></div>
+      <div class="col-md-4">
+        <div class=" col-sm-12 col-md-12  project">
+          <img src="resources/pizza.png" class="img-responsive " style="width:100%" alt="Image">
+          <p class="text-center name">Good Pizza | RU Hacks 2019 (Challenge Winner)</p>
+          <p class="links">Link: <a href="https://github.com/Krutarth-P/RU-Hacks-2019">GitHub</a></p>
+          <p class="tools">Tools: Python, HTML, CSS, JavaScript, TensorFlow</p>
+          <ul class="detail">
+            <li>
+              Developed an AI model to visually assure quality of the pizza based on picture
+            </li>
+            <li>
+              Concept can be used for other foods/products in many other industries
+            </li>
+            <li>
+              Utilized Google Vision AI to help identify photos
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="clearfix visible-xs visible-sm"></div>
+
+      <div class="col-md-4">
+        <div class=" col-sm-12 col-md-12  project">
+          <img src="resources/jpmorgan.jpg" class="img-responsive " style="width:100%" alt="Image">
+          <p class="text-center name">JPMorgan Chase Software Engineering Project </p>
+          <p class="tools">Tools: Python, JavaScript, React</p>
+          <ul class="detail">
+            <li>
+              Utilised Python to manage and compare stock prices
+            </li>
+            <li>
+              Used JPMorgan Chase frameworks and tools to manage data
+            </li>
+            <li>
+              Used React to visualize data
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="clearfix visible-xs visible-sm"></div>
+
+
+      <div class="col-md-4">
+        <div class=" col-sm-12 col-md-12  project">
+          <img src="resources/music.png" class="img-responsive " style="width:100%" alt="Image">
+          <p class="text-center name">Music Recommendation System</p>
+          <p class="tools">Tools: Python, Scikit-learn, Jupyter</p>
+          <ul class="detail">
+            <li>
+              Developed a music recommendation using Python Scikit-learn, and Jupyter notebook
+            </li>
+            <li>
+              Used training data to ensure accurate results
+            </li>
+            <li>
+              Utilised Scikit-learn to make correct predictions
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="clearfix visible-xs visible-sm"></div>
+      <div class="clearfix hidden-xs hidden-sm"></div>
+
+      <div class="col-md-4">
+        <div class=" col-sm-12 col-md-12  project">
+          <img src='resources/othello.png' class="img-responsive " style="width:100%" alt="Image">
+          <p class="text-center name">Othello AI Game</p>
+          <p class="links">Link: <a href="https://github.com/Krutarth-P/C-coursework">GitHub</a> </p>
+          <p class="tools">Tools: C</p>
+          <ul class="detail">
+            <li>
+              Developed a successful 1 and 2-player Othello game.
+            </li>
+            <li>
+              Implemented Minimax and Greedy algorithm that chooses the best move for any board size under 1 second for
+              1-player AI match.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="clearfix visible-xs visible-sm"></div>
+
+      <div class="col-md-4">
+        <div class=" col-sm-12 col-md-12  project">
+          <img src="resources/dino.jpg" class="img-responsive " style="width:100%" alt="Image">
+          <p class="text-center name">Dino Runner</p>
+          <p class="tools">Tools: C, ARM Assembly, DE1-SoC FPGA</p>
+          <ul class="detail">
+            <li>
+              Developed a functional dino runner game using C and ARM assembly
+            </li>
+            <li>
+              Implement PS2 and board inputs to control the game
+            </li>
+            <li>
+              Utilised display buffers and memory to output graphics
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="clearfix visible-xs visible-sm"></div>
+
+      <div class="col-md-4">
+        <div class=" col-sm-12 col-md-12  project">
+          <img src="resources/chat.jpg" class="img-responsive " style="width:100%" alt="Image">
+          <p class="text-center name">Messaging App</p>
+          <p class="tools">Tools: C</p>
+          <ul class="detail">
+            Developed a functional messaging app with group messaging functionality, facilitated through network sockets
+          </ul>
+        </div>
+      </div>
+
+      <div class="clearfix visible-xs visible-sm"></div>
+      <div class="clearfix hidden-xs hidden-sm"></div>
+
+
+      <div class="col-md-4">
+        <div class=" col-sm-12 col-md-12  project">
+          <img src="resources/website.png" class="img-responsive " style="width:100%" alt="Image">
+          <p class="text-center name">Portfolio Website</p>
+          <p class="links">Link: <a href="https://github.com/Krutarth-P/krutarth-p.github.io">GitHub</a> </p>
+          <p class="tools">Tools: HTML, CSS, JavaScript, Bootstrap</p>
+          <ul class="detail">
+            Designed and developed a functional responsive personal website to showcase my skills, experience, and
+            projects.
+          </ul>
+        </div>
+      </div>
+
+      <div class="clearfix visible-xs visible-sm"></div>
+
+
+      <div class="col-md-4">
+        <div class=" col-sm-12 col-md-12  project">
+          <img src="resources/matplotlib.png" class="img-responsive " style="width:100%" alt="Image">
+          <p class="text-center name">Matplotlib Open-Source GitHub Contribution</p>
+          <p class="tools">Tools: Python, GitHub</p>
+        </div>
+      </div>
+
+      <div class="clearfix visible-xs visible-sm"></div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer id="contact" class="container-fluid bg-6 text-center">
+    <h2 class="section-title">Contact Me</h2>
+    <p>Feel free to message me on LinkedIn or email me at <a
+        href="mailto: krutarth2000@gmail.com">krutarth2000@gmail.com</a>.</p>
+
+    <div class="social-buttons">
+      <a href="https://www.linkedin.com/in/krutarthp/" target="_blank"><i class="fab fa-linkedin-in linkedin">
+          <br>LinkedIn</i></a>
+      <a href="mailto: krutarth2000@gmail.com"><i class="fa fa-envelope email"> <br>Email</i></a>
+    </div>
+
+    <p>Fill out the form below or at <a href="https://forms.gle/k4qnM3DjRLAmmEYx8"
+        target="_blank">https://forms.gle/k4qnM3DjRLAmmEYx8</a></p>
+
+    <iframe class="responsive-iframe"
+      src="https://docs.google.com/forms/d/e/1FAIpQLScATeP_OgeqNkZyyyCwiEGFlYj4k7p5Xw-hPGxYZcncUvVBhw/viewform?embedded=true"
+      title="Contact form" width="90%" height="670px" frameborder="0" marginheight="0" marginwidth="0">Loading form…
+    </iframe>
+
+    <p>Website Made By Krutarth Patel</p>
+
+  </footer>
 
 </body>
+
 </html>
